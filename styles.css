@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #333;
+    background-color:#597D95;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
     height: 100vh;
     background: url(Webp.net-resizeimage-1-1120x746.jpg);
     background-attachment: fixed;
-    background-size: 110%;
+    background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -28,6 +28,7 @@ body {
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5),
         0 0 0 100px rgba(0, 0, 0, .1);
         overflow-y:hidden;
+    background-position: center center;
 }
 
 .container h2 {
@@ -35,7 +36,7 @@ body {
     font-size: 4em;
     line-height: 0.7em;
     color: #333;
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: 'Roboto', sans-serif;
 
     text-shadow:
@@ -167,12 +168,14 @@ body {
     color: #54576f;
     font-size: 17px;
     font-weight: bold;
+    text-align: center;
 }
 
 #track-name {
     color: #54576f;
-    font-size: 11px;
-    margin: 2px 0 -1px 0;
+    font-size: 13px;
+    margin: 2px 2px 0;
+    text-align: center;
     
 }
 
@@ -484,9 +487,22 @@ body {
         box-shadow: 0 0 0 10px #fff;
         border-radius: 50%;
     }
+    #track-name {
+        color: #54576f;
+        font-size: 13px;
+        margin: 2px 20px 0;
+     
+        
+    }
 
     #album-name,#track-name,#track-time {
 
 margin-left: -100px;    }
 
+}
+
+@media (min-width:1100px){
+    .container{
+        background-size: 110%;
+    }
 }
