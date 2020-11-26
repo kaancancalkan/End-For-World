@@ -26,7 +26,8 @@ body {
     align-items: center;
     flex-direction: column;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5),
-        0 0 0 100px rgba(0, 0, 0, .1)
+        0 0 0 100px rgba(0, 0, 0, .1);
+        overflow-y:hidden;
 }
 
 .container h2 {
@@ -73,7 +74,7 @@ body {
     height: 35px;
     background: #8b9409;
     color: #333;
-    font-size: 0.55em;
+    font-size: 0.45em;
     line-height: 35px;
     font-weight: 300;
 }
@@ -141,6 +142,7 @@ body {
 #player {
     position: relative;
     height: 100%;
+    top:50%;
     z-index: 3;
 }
 
@@ -158,6 +160,7 @@ body {
 
 #player-track.active {
     top: -92px;
+    opacity: 0.6;
 }
 
 #album-name {
@@ -167,9 +170,10 @@ body {
 }
 
 #track-name {
-    color: #acaebd;
-    font-size: 12px;
-    margin: 2px 0 13px 0;
+    color: #54576f;
+    font-size: 11px;
+    margin: 2px 0 -1px 0;
+    
 }
 
 #track-time {
