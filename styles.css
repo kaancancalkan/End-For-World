@@ -157,7 +157,7 @@ body {
     border-radius: 15px 15px 0 0;
     transition: 0.3s ease top;
     z-index: 1;
-    opacity:0.7;
+    opacity:0.;
 
 }
 
@@ -218,8 +218,9 @@ body {
 }
 
 #s-area {
-    background-color: #ffe8ee;
+    background-color: #8b9409;
     cursor: pointer;
+    opacity:0.55;
 }
 
 #ins-time {
