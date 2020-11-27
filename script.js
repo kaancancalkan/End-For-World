@@ -53,7 +53,7 @@ $(function () {
         albums = [' La belle étoile', 'Gnossienne'],
         trackNames = ['Andrea Lindsay - Demain Des Laube', 'Erik Satie - Gnossienne No.1 ' ],
         albumArtworks = ['_1', '_2'],
-        trackUrl = ['/Songs/Andrea Lindsay -  Demain Des Laube.mp3', '/Songs/Erik Satie - Gnossienne No.1.mp3'],
+        trackUrl = ['/Songs/Andrea Lindsay -  Demain Des Laube.mp3', '/Songs/Erik Satie Gnossienne No 1.mp3'],
         playPreviousTrackButton = $('#play-previous'),
         playNextTrackButton = $('#play-next'),
         currIndex = -1;
