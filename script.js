@@ -5,7 +5,7 @@ var endtime = new Date('April 1, 2023 00:00:00').getTime();
 
 function end() {
     var currentTime = new Date().getTime();
-    gap = endtime - currentTime;
+    gap = currentTime - endtime ;
     var second = 1000;
     var minute = 60 * second;
     var hour = 60 * minute;
