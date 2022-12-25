@@ -1,7 +1,7 @@
 function addZero(n) {
     return n < 10 ? "0" + n : n
 }
-var endtime = new Date('June 1, 2022 00:00:00').getTime();
+var endtime = new Date('April 1, 2023 00:00:00').getTime();
 
 function end() {
     var currentTime = new Date().getTime();
